@@ -1,0 +1,67 @@
+C:\Users\Lukasinho\Documents\Visual Studio 2012\Projects\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.exe.config
+C:\Users\Lukasinho\Documents\Visual Studio 2012\Projects\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.exe
+C:\Users\Lukasinho\Documents\Visual Studio 2012\Projects\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.pdb
+C:\Users\Lukasinho\Documents\Visual Studio 2012\Projects\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\MainWindow.baml
+C:\Users\Lukasinho\Documents\Visual Studio 2012\Projects\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\MainWindow.g.cs
+C:\Users\Lukasinho\Documents\Visual Studio 2012\Projects\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\App.g.cs
+C:\Users\Lukasinho\Documents\Visual Studio 2012\Projects\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer_MarkupCompile.cache
+C:\Users\Lukasinho\Documents\Visual Studio 2012\Projects\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.g.resources
+C:\Users\Lukasinho\Documents\Visual Studio 2012\Projects\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky_klient_Pfeiffer.Properties.Resources.resources
+C:\Users\Lukasinho\Documents\Visual Studio 2012\Projects\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.csproj.GenerateResource.Cache
+C:\Users\Lukasinho\Documents\Visual Studio 2012\Projects\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.exe
+C:\Users\Lukasinho\Documents\Visual Studio 2012\Projects\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.pdb
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.exe.config
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.exe
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.pdb
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.exe
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.pdb
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\MainWindow.baml
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\MainWindow.g.cs
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\App.g.cs
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer_MarkupCompile.cache
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.g.resources
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky_klient_Pfeiffer.Properties.Resources.resources
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.csproj.GenerateResource.Cache
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.csprojResolveAssemblyReference.cache
+C:\Users\Jarda\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.exe.config
+C:\Users\Jarda\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.exe
+C:\Users\Jarda\Documents\GitHub\Piskvorky\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.pdb
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky_2013-08-19\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.exe.config
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky_2013-08-19\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.exe
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky_2013-08-19\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.pdb
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky_2013-08-19\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.exe
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky_2013-08-19\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.pdb
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky_2013-08-19\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.csprojResolveAssemblyReference.cache
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky_2013-08-19\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\MainWindow.baml
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky_2013-08-19\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\MainWindow.g.cs
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky_2013-08-19\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\App.g.cs
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky_2013-08-19\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer_MarkupCompile.cache
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky_2013-08-19\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.g.resources
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky_2013-08-19\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky_klient_Pfeiffer.Properties.Resources.resources
+C:\Users\Lukasinho\Documents\GitHub\Piskvorky_2013-08-19\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.csproj.GenerateResource.Cache
+D:\Piskvorky-master\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.exe.config
+D:\Piskvorky-master\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.exe
+D:\Piskvorky-master\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.pdb
+D:\Piskvorky-master\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.exe
+D:\Piskvorky-master\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.pdb
+D:\Piskvorky-master\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.csprojResolveAssemblyReference.cache
+D:\Piskvorky-master\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\MainWindow.baml
+D:\Piskvorky-master\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\MainWindow.g.cs
+D:\Piskvorky-master\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\App.g.cs
+D:\Piskvorky-master\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer_MarkupCompile.cache
+D:\Piskvorky-master\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.g.resources
+D:\Piskvorky-master\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky_klient_Pfeiffer.Properties.Resources.resources
+D:\Piskvorky-master\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.csproj.GenerateResource.Cache
+C:\Users\Lukasinho\Desktop\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.exe.config
+C:\Users\Lukasinho\Desktop\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.exe
+C:\Users\Lukasinho\Desktop\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.pdb
+C:\Users\Lukasinho\Desktop\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.exe
+C:\Users\Lukasinho\Desktop\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\bin\Debug\Piskvorky-klient-Pfeiffer.pdb
+C:\Users\Lukasinho\Desktop\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.csprojResolveAssemblyReference.cache
+C:\Users\Lukasinho\Desktop\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\MainWindow.baml
+C:\Users\Lukasinho\Desktop\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\MainWindow.g.cs
+C:\Users\Lukasinho\Desktop\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\App.g.cs
+C:\Users\Lukasinho\Desktop\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer_MarkupCompile.cache
+C:\Users\Lukasinho\Desktop\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.g.resources
+C:\Users\Lukasinho\Desktop\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky_klient_Pfeiffer.Properties.Resources.resources
+C:\Users\Lukasinho\Desktop\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\Piskvorky-klient-Pfeiffer\obj\Debug\Piskvorky-klient-Pfeiffer.csproj.GenerateResource.Cache

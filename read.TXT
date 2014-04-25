@@ -1,0 +1,130 @@
+PIŠKVORKY, POPIS PRÁCE 
+
+*Koncept
+Vytvoøení piškvorek principu klient-server
+Každý hráè si pøipraví pravidla, dle kterých agent bude urèovat své tahy.
+Server je ovìøí a provede.
+Server poté urèí celkového vítìze turnaje.
+
+*DB architektura
+Uložena na https://github.com/Ferrzo/Piskvorky   ve složce db.
+Je uložena jako záloha databáze, proto je tøeba ju obnovit až si to budete u sebe tvoøit.
+
+*Hruby plan:
+
+=vytvoøení DB		(hotovo)
+=Pøipojení		(hotovo)
+=Vytváøení agenta	(hotovo)
+=Èekání na hru		(klient?
+=Hrani hry		
+=Ukonèení hry		
+=Sítova èast		(hotovo)
+=Hledání tahu		(? tvori klient)
+=Zobrazeni plochy	(hotovo)
+=Losování		(hotovo)
+
+*Detailni Plan:
+
+
+++Klient:
+(hotovo)Pøipojení k databázi 
+( hotovo)Agent se pøidá do databáze pøidáním jména hráèe
+Hráè vytvoøí agentovi pravidla stylem (*pøíloha1)	(v testovacim klientu, je ukazane mozne reseni na prvnim policku klikanim,ale je to silenost udelejte si to podle sebe :) )
+(hotovo)Hráè je nahraje do databáze
+
+(hotovo)Vytvoøí vlákno, které naslouchá serveru a pøi pøijití kódu(*pøíloha2) na nìj dokáže reagovat
+kdy má zaèít hrát agent zjistí zda zaèíná, a zda má koleèka èi køížky
+Když je vyzván k hraní zaène procházet hrací plochu
+Hledá pomocí pattern-matching až urèí,  které pravidlo lze použít
+Nahraje tah na server do databáze
+Èeká opìtovnì na vyzvání ke høe
+Po konci hry èeká na novou hru
+Zobrazuje své dosavadní body a celkové místo
+
+++Server:
+(hotovo)Pøipojení k DB 		
+(hotovo)Server èeká na vytvoøení hráèù
+(hotovo)Server èeká na vložení pravidel agentù
+(hotovo)Server rozlosuje zápasy
+(hotovo)Server vyšle pozvání hracímu páru, zda jsou koleèka èi køížek a kdo zaèíná
+(skoro)Èeká urèitý èas, po nìm následuje kontumace
+(hotovo)Po jejích pøipojení èeká na první tah
+(hotovo)Zapíše jej do hrací plochy
+(hotovo)Vše zobrazuje na obrazovce, a vždy èeká daný èas na sledování stavu hry.
+(hotovo)Kontroluje zda nìkdo není vítìz
+(hotovo)Zapisuje body
+Na konci zobrazit tabulku bodu
+Do databaze pridat IP adresu hracu(nebo klient posle svou ip adresu)
+
+Pravidla
+--------
+
+pfeiffer: upravil jsem tvar pravidel
+- agent vychodnocuje hrací plochu zprava doleva a zhora dolù, vybere se první vhodné pravidlo
+- pravidla musí být 2x2, 3x3, 4x4, 5x5 (vìtší pravidla mají prioritu, dále první v seznamu) 
+- pøièemž prvním 25 èísel urèuje hrací plochu, kde se bude zapisovat (0, 1, 2),
+- první èíslo za dvojteèkou urèuje øádek, kde udìlá koleèko/køížek v rámci pravidla
+- druhé èíslo za dvojteèkou urèuje sloupec, kde udìlá koleèko/køížek v rámci pravidla
+
+Pøíklad: pravidlo: 0000000000020000000000000:3:4
+	hrací plocha: 	0000000000	vysledek hrací plochy: 	0000000000
+			0000000000				0000000000
+			0020000000				0021000000
+			0000000000				0000000000
+			0000000000				0000000000
+			...					...
+
+- hodnoty, které agent automaticky urèí a pošle serveru ve tvaru x-y-z, pø. 2-3-1
+- x urèují na jakém øádku hrací plochy (0 - 9),
+- y urèují na jakém sloupci hrací plochy (0 - 9),
+- a z, zda se jedna o køížek èi koleèko (1 - køížek, 2 - koleèko).
+
+
+*Pøíloha2:
+(zatím nástin funkcí)
+Zatim nejake kody jen tak na pokus:
+Cekej			-èeká na hrani
+Hraj-Koleèko-1      	-hraje za koleèka a zaèíná hru
+Vyhra/Prohra		-Vyhral èi prohral
+KonecTurnaje		-Ukonèení èekání na zápasy a zobrazení vysledkù hry.		
+Vytvoren		-posle zpravu serveru klient ze se zaregistroval
+Pripraven		-posle zpravu serveru klient ze ma i pravidla
+
+Zprávy
+------
+
+pfeiffer: 
+- prozatím posílám serveru tyto zprávy:
+  :zprávy jsou ve tvaru Id_hrace:zprava
+  :Vytvoren, Pripraven, Prohra, Remiza, souøadnice (viz. pravidla) a testovací zpráva
+- reaguji na Hraj, Cekej, Krizek, Kolecko, Vyhra, Remiza, KonecTurnaje a testovací zprávu
+- klient nereaguje na zprávu, která je stejná, jako pøedchozí (zprávy se musí støídat)
+
+Localhost:
+Port Serveru: 5000
+Port Klientu: 5550 + cislo hrace
+
+Klient - Pfeiffer
+-----------------
+Zatím je hotovo:
+- Pøipojení k databázi
+- Pøidání agenta do databáze a získání pøidìleného Id a pošlání zprávy serveru (Vytvoren)
+- Vytvoøení X pravidel (viz. pravidla) a pøidaní jej do db se svým pøidìleným Id_hrac a poslání zprávy serveru (Pripraven)
+  (Pravidla je možné uložit do txt a následnì naèíst, aby nebylo nutno stále dokola vytváøet pravidla :-D)
+- Vlákno naslouchajicí serveru a pøijímácí zprávy ze serveru
+- Reakce na zpravy - prozatím 100 ms. èekací interval (viz. zpravy)
+- Naètení hrací plochy z databáze
+- Urèení, které pravidlo lze použít a poslání ho na server s intrukcemi (viz. pravidla)
+- Èeká na opìtovné vyzvání ke høe (zprávu ze serveru)
+- Po konci hry èekání na novou hru  (zpráva se serveru)
+- Ukonèení turnaje
+- Zobrazování dosavadních výher/proher/remíz (tabulka)
+- Zjištìní, zda agent vyhrál, prohrál a remizoval a poslání zprávy serveru
+- Poslání souøadnic serveru, kde má udìlat køížek/koleèko (viz. pravidla)
+- Náhodné pravidlo
+- Upravení reakcí na zprávy podle serveru
+- Inverze hrací plochy, když má klient koleèko
+Zbývá udìlat:
+- Vytvoøit pravidla
+- ???
+- Drobnosti :-D
